@@ -274,7 +274,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 480682, guid: 7b56a51ac9a5fbd498f561c9c8cd6434, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11480682, guid: 7b56a51ac9a5fbd498f561c9c8cd6434, type: 2}
       propertyPath: paddle
@@ -883,7 +883,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!1 &1520158791
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,7 +1154,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!1 &2003810945
 GameObject:
   m_ObjectHideFlags: 0
