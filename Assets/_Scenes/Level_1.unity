@@ -2699,7 +2699,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 972f727597348f04a990e77485016b74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelManager: {fileID: 115344327}
 --- !u!1 &1698092447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2794,7 +2793,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaf3b71e42af5a34283254bd10d795c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paddle: {fileID: 864118356}
 --- !u!1 &1733011607
 GameObject:
   m_ObjectHideFlags: 0
