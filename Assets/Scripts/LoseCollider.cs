@@ -3,10 +3,10 @@ using System.Collections;
 
 public class LoseCollider : MonoBehaviour {
 
-	public LevelManager levelManager;
+	private LevelManager levelManager;
 	
 	void OnTriggerEnter2D (Collider2D trigger) {
-		print ("Trigger");
+		levelManager = FindObjectOfType<LevelManager>();
 		levelManager.LoadLevel("Level_2");
 	}
 	

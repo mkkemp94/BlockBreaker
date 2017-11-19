@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 972f727597348f04a990e77485016b74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelManager: {fileID: 0}
+  levelManager: {fileID: 941978667}
 --- !u!61 &1258835125
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1269,6 +1269,10 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: e4f25e4cac2e27b4eb0ef8adc0911f36,
         type: 3}
+    - target: {fileID: 11447724, guid: 631d132df71794941b58e43cae20284e, type: 2}
+      propertyPath: levelManager
+      value: 
+      objectReference: {fileID: 941978667}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 631d132df71794941b58e43cae20284e, type: 2}
   m_RootGameObject: {fileID: 1027619195}
