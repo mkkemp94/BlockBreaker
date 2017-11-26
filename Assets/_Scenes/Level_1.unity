@@ -175,7 +175,7 @@ GameObject:
   - 61: {fileID: 74342449}
   - 114: {fileID: 74342448}
   m_Layer: 0
-  m_Name: 1 hit
+  m_Name: block_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -205,7 +205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &74342449
 BoxCollider2D:
@@ -470,7 +469,7 @@ GameObject:
   - 61: {fileID: 216952282}
   - 114: {fileID: 216952281}
   m_Layer: 0
-  m_Name: 1 hit
+  m_Name: block_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -488,7 +487,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &216952282
 BoxCollider2D:
@@ -621,7 +619,7 @@ GameObject:
   - 61: {fileID: 367811311}
   - 114: {fileID: 367811310}
   m_Layer: 0
-  m_Name: 2 hit
+  m_Name: block_blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -639,7 +637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300006, guid: 8bf2c2523b4d6ee4cae4e039f09e34f4, type: 3}
 --- !u!61 &367811311
@@ -856,7 +853,7 @@ GameObject:
   - 61: {fileID: 559971156}
   - 114: {fileID: 559971155}
   m_Layer: 0
-  m_Name: 2 hit
+  m_Name: block_blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -886,7 +883,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300006, guid: 8bf2c2523b4d6ee4cae4e039f09e34f4, type: 3}
 --- !u!61 &559971156
@@ -1011,7 +1007,7 @@ GameObject:
   - 61: {fileID: 749702743}
   - 114: {fileID: 749702742}
   m_Layer: 0
-  m_Name: 2 hit
+  m_Name: block_blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1041,7 +1037,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300006, guid: 8bf2c2523b4d6ee4cae4e039f09e34f4, type: 3}
 --- !u!61 &749702743
@@ -1135,7 +1130,7 @@ GameObject:
   - 61: {fileID: 796946666}
   - 114: {fileID: 796946665}
   m_Layer: 0
-  m_Name: 1 hit
+  m_Name: block_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1165,7 +1160,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &796946666
 BoxCollider2D:
@@ -1308,7 +1302,7 @@ GameObject:
   - 61: {fileID: 882022940}
   - 114: {fileID: 882022939}
   m_Layer: 0
-  m_Name: 1 hit
+  m_Name: block_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1338,7 +1332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &882022940
 BoxCollider2D:
@@ -1475,7 +1468,7 @@ GameObject:
   - 61: {fileID: 1074335966}
   - 114: {fileID: 1074335965}
   m_Layer: 0
-  m_Name: 1 hit
+  m_Name: block_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1505,7 +1498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &1074335966
 BoxCollider2D:
@@ -1598,7 +1590,7 @@ GameObject:
   - 61: {fileID: 1149313979}
   - 114: {fileID: 1149313978}
   m_Layer: 0
-  m_Name: 1 hit
+  m_Name: block_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1628,7 +1620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &1149313979
 BoxCollider2D:
@@ -1765,7 +1756,7 @@ GameObject:
   - 61: {fileID: 1328519614}
   - 114: {fileID: 1328519613}
   m_Layer: 0
-  m_Name: 2 hit
+  m_Name: block_blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1795,7 +1786,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 2
   hitSprites:
   - {fileID: 21300006, guid: 8bf2c2523b4d6ee4cae4e039f09e34f4, type: 3}
 --- !u!61 &1328519614
@@ -1977,7 +1967,7 @@ GameObject:
   - 61: {fileID: 1555466201}
   - 114: {fileID: 1555466200}
   m_Layer: 0
-  m_Name: 1 hit
+  m_Name: block_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2007,7 +1997,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &1555466201
 BoxCollider2D:
@@ -2438,7 +2427,7 @@ GameObject:
   - 61: {fileID: 1919375078}
   - 114: {fileID: 1919375077}
   m_Layer: 0
-  m_Name: 1 hit
+  m_Name: block_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2468,7 +2457,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &1919375078
 BoxCollider2D:
@@ -2517,7 +2505,7 @@ GameObject:
   - 61: {fileID: 1959946112}
   - 114: {fileID: 1959946111}
   m_Layer: 0
-  m_Name: 1 hit
+  m_Name: block_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2547,7 +2535,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &1959946112
 BoxCollider2D:
@@ -2596,7 +2583,7 @@ GameObject:
   - 61: {fileID: 1968879390}
   - 114: {fileID: 1968879389}
   m_Layer: 0
-  m_Name: 1 hit
+  m_Name: block_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2626,7 +2613,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &1968879390
 BoxCollider2D:
@@ -2719,7 +2705,7 @@ GameObject:
   - 61: {fileID: 2042885075}
   - 114: {fileID: 2042885074}
   m_Layer: 0
-  m_Name: 1 hit
+  m_Name: block_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2749,7 +2735,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHits: 1
   hitSprites: []
 --- !u!61 &2042885075
 BoxCollider2D:
