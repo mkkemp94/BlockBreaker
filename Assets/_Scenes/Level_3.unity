@@ -171,6 +171,7 @@ GameObject:
   - 50: {fileID: 213626750}
   - 58: {fileID: 213626749}
   - 114: {fileID: 213626748}
+  - 82: {fileID: 213626754}
   - 82: {fileID: 213626753}
   m_Layer: 0
   m_Name: Ball
@@ -259,6 +260,65 @@ AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 213626747}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 7da50b6542e72864d853b35640fbebcb, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!82 &213626754
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8251832, guid: 7b56a51ac9a5fbd498f561c9c8cd6434,
+    type: 2}
+  m_PrefabInternal: {fileID: 1553960840}
   m_GameObject: {fileID: 213626747}
   m_Enabled: 1
   serializedVersion: 3
@@ -470,6 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: d92d68c5e9f4d4c4fb2da7b1e099f6dc, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: 8bf2c2523b4d6ee4cae4e039f09e34f4, type: 3}
 --- !u!61 &940115773
@@ -646,6 +707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: d92d68c5e9f4d4c4fb2da7b1e099f6dc, type: 3}
   hitSprites:
   - {fileID: 21300006, guid: 8bf2c2523b4d6ee4cae4e039f09e34f4, type: 3}
   - {fileID: 21300012, guid: 8bf2c2523b4d6ee4cae4e039f09e34f4, type: 3}
@@ -1019,6 +1081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f94558e20f2e64ca611d051867270a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoPlay: 1
 --- !u!50 &1659651126
 Rigidbody2D:
   m_ObjectHideFlags: 0
@@ -1112,6 +1175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: d92d68c5e9f4d4c4fb2da7b1e099f6dc, type: 3}
   hitSprites: []
 --- !u!61 &1763223352
 BoxCollider2D:
@@ -1285,6 +1349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3373c1e16a61645906e60dce25ac96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  crack: {fileID: 8300000, guid: 7da50b6542e72864d853b35640fbebcb, type: 3}
   hitSprites:
   - {fileID: 0}
   - {fileID: 0}
