@@ -53,8 +53,14 @@ public class Brick : MonoBehaviour {
 
 	void loadSprites () {
 		int spriteIndex = timesHit - 1;
-		if (hitSprites[spriteIndex]) {
+		
+		// There is a sprite here
+		if (hitSprites[spriteIndex] != null) {
 			this.GetComponent<SpriteRenderer>().sprite = hitSprites[spriteIndex];
+		} 
+		// Sprite is missing
+		else {
+			Debug.LogError("Brick sprite missing!");
 		}
 	}
 	
